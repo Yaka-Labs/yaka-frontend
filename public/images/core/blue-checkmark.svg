@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" y1="1" x2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1d3ef8"/>
+      <stop offset="1" stop-color="#0df"/>
+    </linearGradient>
+  </defs>
+  <g id="blue-checkmark" transform="translate(-888 -486)">
+    <rect id="Rectangle_14065" data-name="Rectangle 14065" width="24" height="24" transform="translate(888 486)" fill="none"/>
+    <path id="checkmark" d="M23.963,7.314a1.338,1.338,0,0,0-1.938,0L11.642,17.7,7.35,13.408a1.371,1.371,0,1,0-1.94,1.938l5.262,5.261a1.338,1.338,0,0,0,1.938,0L23.963,9.255a1.339,1.339,0,0,0,0-1.938Z" transform="translate(884.991 484.102)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

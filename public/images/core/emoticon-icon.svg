@@ -1,0 +1,10 @@
+<svg id="emoticon-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <linearGradient id="linear-gradient" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#39d1ff"/>
+      <stop offset="1" stop-color="#3149ff"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_14301" data-name="Rectangle 14301" width="24" height="24" fill="none"/>
+  <path id="Union_603" data-name="Union 603" d="M0,11A11,11,0,1,1,11,22,11.012,11.012,0,0,1,0,11Zm1.189,0a9.811,9.811,0,0,0,19.622,0A9.811,9.811,0,0,0,1.189,11Zm9.02,6.05a6.905,6.905,0,0,1-4.955-3.086l1-.646a5.649,5.649,0,0,0,9.5,0l1,.646a6.9,6.9,0,0,1-5.768,3.13A6.615,6.615,0,0,1,10.209,17.05Zm3.368-8.5a1.189,1.189,0,1,1,1.189,1.189A1.19,1.19,0,0,1,13.577,8.547Zm-7.359,0a1.19,1.19,0,1,1,1.19,1.189A1.19,1.19,0,0,1,6.218,8.547Z" transform="translate(1 1)" fill="url(#linear-gradient)"/>
+</svg>

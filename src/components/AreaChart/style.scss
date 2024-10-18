@@ -1,0 +1,79 @@
+.chart-container {
+  flex: 1;
+  margin-top: -20px;
+}
+
+.yaxis {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 8px;
+  margin-bottom: 20px;
+
+  & p {
+    font-size: 12px;
+    color: #8b88a0;
+  }
+}
+
+.area-tooltip {
+  display: flex;
+  flex-direction: column;
+  background: #090333;
+  border: 1px solid #0000af;
+
+  .tooltip-text {
+    padding: 6px 10px 0;
+    color: #dedbf2;
+
+    & b {
+      color: white;
+    }
+
+    &:first-child {
+      padding: 6px 10px;
+      border-bottom: 1px solid #0000af;
+      border-radius: 12px 12px 0 0;
+    }
+
+    &:last-child {
+      padding: 6px 10px;
+      border-radius: 0 0 12px 12px;
+    }
+  }
+}
+
+.area-liquidity {
+  display: flex;
+  flex-direction: column;
+  box-shadow: none;
+  border-radius: 12px;
+  background: transparent;
+
+  & small {
+    padding: 0.5rem;
+    border: 1px solid #0000af;
+    background-color: #090333;
+    color: white;
+
+    &:first-child {
+      border-radius: 12px 12px 0 0;
+    }
+
+    &:last-child {
+      border-radius: 0 0 12px 12px;
+    }
+  }
+}
+
+.category-values {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 8px;
+  margin-top: -40px;
+
+  & p {
+    font-size: 12px;
+    color: #b8b6cb;
+  }
+}

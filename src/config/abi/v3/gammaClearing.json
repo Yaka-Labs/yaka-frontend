@@ -1,0 +1,24 @@
+[
+  {
+    "inputs": [{ "internalType": "address", "name": "", "type": "address" }],
+    "name": "positions",
+    "outputs": [
+      { "internalType": "bool", "name": "customRatio", "type": "bool" },
+      { "internalType": "bool", "name": "customTwap", "type": "bool" },
+      { "internalType": "bool", "name": "ratioRemoved", "type": "bool" },
+      { "internalType": "bool", "name": "depositOverride", "type": "bool" },
+      { "internalType": "bool", "name": "twapOverride", "type": "bool" },
+      { "internalType": "uint8", "name": "version", "type": "uint8" },
+      { "internalType": "uint32", "name": "twapInterval", "type": "uint32" },
+      { "internalType": "uint256", "name": "priceThreshold", "type": "uint256" },
+      { "internalType": "uint256", "name": "deposit0Max", "type": "uint256" },
+      { "internalType": "uint256", "name": "deposit1Max", "type": "uint256" },
+      { "internalType": "uint256", "name": "maxTotalSupply", "type": "uint256" },
+      { "internalType": "uint256", "name": "fauxTotal0", "type": "uint256" },
+      { "internalType": "uint256", "name": "fauxTotal1", "type": "uint256" },
+      { "internalType": "uint256", "name": "customDepositDelta", "type": "uint256" }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

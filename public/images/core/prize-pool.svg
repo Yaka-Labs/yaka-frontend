@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <linearGradient id="linear-gradient" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#39d1ff"/>
+      <stop offset="1" stop-color="#3149ff"/>
+    </linearGradient>
+  </defs>
+  <g id="prize-pool" transform="translate(-769 -490)">
+    <rect id="Rectangle_14064" data-name="Rectangle 14064" width="24" height="24" transform="translate(769 490)" fill="none"/>
+    <path id="Subtraction_489" data-name="Subtraction 489" d="M3621.876,6659.984h-8.394a.9.9,0,1,1,0-1.8h3.3v-2.531l-.125-.02a6.233,6.233,0,0,1-4.3-2.972l-.032-.053-.062-.015c-1.039-.261-2.361-1.521-3.37-3.211a10.553,10.553,0,0,1-1.553-6.178v-.013a.889.889,0,0,1,.9-.8h3.3v-1.2a.843.843,0,0,1,.9-.9h10.492a.843.843,0,0,1,.9.9v1.2h3.3a.889.889,0,0,1,.9.8v.012a10.4,10.4,0,0,1-1.668,6.374,6.8,6.8,0,0,1-3.253,3.015l-.062.015-.032.055a6.239,6.239,0,0,1-4.3,2.972l-.125.02v2.531h3.3a.9.9,0,1,1,0,1.8Zm-8.545-17.885v7.5a4.347,4.347,0,0,0,8.693,0v-7.5Zm10.492,2.1v5.688l.262-.3a9,9,0,0,0,2.136-5.227l.013-.164Zm-14.7,0,.013.164a8.983,8.983,0,0,0,2.135,5.227l.262.3V6644.2Z" transform="translate(-2836.65 -6147.652)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

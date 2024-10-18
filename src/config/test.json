@@ -1,0 +1,680 @@
+[
+  {
+    "type": "constructor",
+    "inputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "MAX_EPOCHS",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "MAX_PAIRS",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "MAX_REWARDS",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "WEEK",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "algebraFactory",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "contract IAlgebraFactory"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "getAllPair",
+    "inputs": [
+      {
+        "name": "_user",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_amounts",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_offset",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "Pairs",
+        "type": "tuple[]",
+        "internalType": "struct PairAPI.pairInfo[]",
+        "components": [
+          {
+            "name": "pair_address",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "symbol",
+            "type": "string",
+            "internalType": "string"
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "internalType": "string"
+          },
+          {
+            "name": "decimals",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "stable",
+            "type": "bool",
+            "internalType": "bool"
+          },
+          {
+            "name": "total_supply",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "token0",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "token0_symbol",
+            "type": "string",
+            "internalType": "string"
+          },
+          {
+            "name": "token0_decimals",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "reserve0",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "claimable0",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "token1",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "token1_symbol",
+            "type": "string",
+            "internalType": "string"
+          },
+          {
+            "name": "token1_decimals",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "reserve1",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "claimable1",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "gauge",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "gauge_total_supply",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "fee",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "bribe",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "emissions",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "emissions_token",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "emissions_token_decimals",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "account_lp_balance",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "account_token0_balance",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "account_token1_balance",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "account_gauge_balance",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "account_gauge_earned",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "getPair",
+    "inputs": [
+      {
+        "name": "_pair",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_account",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "_pairInfo",
+        "type": "tuple",
+        "internalType": "struct PairAPI.pairInfo",
+        "components": [
+          {
+            "name": "pair_address",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "symbol",
+            "type": "string",
+            "internalType": "string"
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "internalType": "string"
+          },
+          {
+            "name": "decimals",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "stable",
+            "type": "bool",
+            "internalType": "bool"
+          },
+          {
+            "name": "total_supply",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "token0",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "token0_symbol",
+            "type": "string",
+            "internalType": "string"
+          },
+          {
+            "name": "token0_decimals",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "reserve0",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "claimable0",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "token1",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "token1_symbol",
+            "type": "string",
+            "internalType": "string"
+          },
+          {
+            "name": "token1_decimals",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "reserve1",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "claimable1",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "gauge",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "gauge_total_supply",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "fee",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "bribe",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "emissions",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "emissions_token",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "emissions_token_decimals",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "account_lp_balance",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "account_token0_balance",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "account_token1_balance",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "account_gauge_balance",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "account_gauge_earned",
+            "type": "uint256",
+            "internalType": "uint256"
+          }
+        ]
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "getPairBribe",
+    "inputs": [
+      {
+        "name": "_amounts",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_offset",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      {
+        "name": "_pair",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "_pairEpoch",
+        "type": "tuple[]",
+        "internalType": "struct PairAPI.pairBribeEpoch[]",
+        "components": [
+          {
+            "name": "epochTimestamp",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "totalVotes",
+            "type": "uint256",
+            "internalType": "uint256"
+          },
+          {
+            "name": "pair",
+            "type": "address",
+            "internalType": "address"
+          },
+          {
+            "name": "bribes",
+            "type": "tuple[]",
+            "internalType": "struct PairAPI.tokenBribe[]",
+            "components": [
+              {
+                "name": "token",
+                "type": "address",
+                "internalType": "address"
+              },
+              {
+                "name": "decimals",
+                "type": "uint8",
+                "internalType": "uint8"
+              },
+              {
+                "name": "amount",
+                "type": "uint256",
+                "internalType": "uint256"
+              },
+              {
+                "name": "symbol",
+                "type": "string",
+                "internalType": "string"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "initialize",
+    "inputs": [
+      {
+        "name": "_voter",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "left",
+    "inputs": [
+      {
+        "name": "_pair",
+        "type": "address",
+        "internalType": "address"
+      },
+      {
+        "name": "_token",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "_rewPerEpoch",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "owner",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "pairFactory",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "contract IPairFactory"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "setAlgebraFactory",
+    "inputs": [
+      {
+        "name": "_algebraFactory",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "setOwner",
+    "inputs": [
+      {
+        "name": "_owner",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "setVoter",
+    "inputs": [
+      {
+        "name": "_voter",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "underlyingToken",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "address"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "voter",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address",
+        "internalType": "contract IVoter"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "event",
+    "name": "Initialized",
+    "inputs": [
+      {
+        "name": "version",
+        "type": "uint8",
+        "indexed": false,
+        "internalType": "uint8"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "Owner",
+    "inputs": [
+      {
+        "name": "oldOwner",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "newOwner",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "Voter",
+    "inputs": [
+      {
+        "name": "oldVoter",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "newVoter",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
+  },
+  {
+    "type": "event",
+    "name": "WBF",
+    "inputs": [
+      {
+        "name": "oldWBF",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      },
+      {
+        "name": "newWBF",
+        "type": "address",
+        "indexed": false,
+        "internalType": "address"
+      }
+    ],
+    "anonymous": false
+  }
+]

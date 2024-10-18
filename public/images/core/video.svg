@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22.15" height="16" viewBox="0 0 22.15 16">
+  <defs>
+    <linearGradient id="linear-gradient" x2="0.956" y2="1.094" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#39d1ff"/>
+      <stop offset="1" stop-color="#3149ff"/>
+    </linearGradient>
+  </defs>
+  <g id="video" transform="translate(-728 -855)">
+    <rect id="Rectangle_15841" data-name="Rectangle 15841" width="22" height="16" transform="translate(728 855)" fill="none"/>
+    <path id="video-2" data-name="video" d="M9881.245-10975a2.182,2.182,0,0,1-2.245-2.1v-8.8a2.182,2.182,0,0,1,2.245-2.1h10.774a2.184,2.184,0,0,1,2.248,2.1v1.287l5.5-2.065a1.123,1.123,0,0,1,.332-.067.905.905,0,0,1,.5.151.83.83,0,0,1,.4.694v8.8a.856.856,0,0,1-.4.711.966.966,0,0,1-.836.068l-5.5-2.049v1.27a2.184,2.184,0,0,1-2.248,2.1Zm-.449-10.9v8.8a.436.436,0,0,0,.449.424h10.774a.435.435,0,0,0,.449-.424v-8.8a.435.435,0,0,0-.449-.423h-10.774A.435.435,0,0,0,9880.8-10985.9Zm18.405,7.584v-6.348l-4.934,1.845v2.642Z" transform="translate(-9150.85 11844.496)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

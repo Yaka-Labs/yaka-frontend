@@ -1,0 +1,112 @@
+.roadmap-section {
+  overflow-x: clip;
+
+  .roadmap-wrapper {
+    margin-top: 102px;
+    @media (min-width: 768px) {
+      margin-top: 191px;
+    }
+    @media (min-width: 1920px) {
+      margin-top: 141px;
+    }
+
+    .heading-section {
+      font-size: 27px;
+      font-weight: 500;
+      line-height: 34px;
+
+      @media (min-width: 768px) {
+        font-size: 42px;
+        line-height: 48px;
+      }
+    }
+
+    .card-heading {
+      letter-spacing: 0;
+      font-weight: 500;
+      color: #fff;
+      text-shadow: 0 0 33px #ffffff96;
+    }
+
+    .card-layout {
+      background: transparent linear-gradient(126deg, #ed00c9 0%, #bd00ed 100%) 0% 0% no-repeat padding-box;
+      border-radius: 3px;
+
+      .card-inner {
+        background: transparent linear-gradient(90deg, #090240 0%, #090333 100%) 0% 0% no-repeat padding-box;
+        box-shadow: 0 0 55px #6a005a80;
+        border-radius: 3px;
+      }
+    }
+  }
+}
+
+.container-main {
+  max-width: 100%;
+  padding: 0 24px;
+  height: 100%;
+
+  @media (min-width: 768px) {
+    padding: 0 20px;
+    max-width: 768px;
+  }
+
+  @media (min-width: 960px) {
+    max-width: 960px;
+  }
+
+  @media (min-width: 1024px) {
+    max-width: 1024px;
+  }
+
+  @media (min-width: 1280px) {
+    max-width: 1104px;
+    padding: 0;
+  }
+}
+
+.mover-pointer {
+  -webkit-animation: move 3s;
+  -moz-animation: move 3s;
+  -o-animation: move 3s;
+  animation: move 3s;
+  animation-fill-mode: forwards;
+
+  @keyframes move {
+    0% {
+      top: 0;
+    }
+
+    100% {
+      top: 41.6%;
+    }
+
+    // 66% {
+    //   top: 49%;
+    // }
+
+    // 100% {
+    //   top: 100%;
+    // }
+  }
+
+  @media (min-width: 1024px) {
+    @keyframes move {
+      0% {
+        left: 0;
+      }
+
+      100% {
+        left: 50%;
+      }
+
+      // 66% {
+      //   left: 49%;
+      // }
+
+      // 100% {
+      //   left: 100%;
+      // }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.bg-animate {
+  background: transparent linear-gradient(166deg, #09033300 0%, #ed00c9 27%, #bd00ed 73%, #09033300 100%) 0% 0% no-repeat padding-box;
+  padding: 1px;
+  background-size: 300% 300%;
+  position: relative;
+  animation: gradient 2s ease infinite;
+  box-shadow: 0 0 50px #48003d;
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+
+    50% {
+      background-position: 100% 50%;
+    }
+
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+}

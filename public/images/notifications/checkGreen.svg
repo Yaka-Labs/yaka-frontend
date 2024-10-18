@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g id="teal-checkmark" transform="translate(-922 -91)">
+    <rect id="Rectangle_15557" data-name="Rectangle 15557" width="16" height="16" transform="translate(922 91)" fill="none"/>
+    <g id="tick" transform="translate(922 23.003)">
+      <g id="Group_24019" data-name="Group 24019" transform="translate(0 69.997)">
+        <path id="Path_36986" data-name="Path 36986" d="M15.737,70.26a.9.9,0,0,0-1.27,0l-8.8,8.8L1.532,74.928A.9.9,0,0,0,.262,76.2l4.769,4.769a.9.9,0,0,0,1.27,0l9.436-9.436A.9.9,0,0,0,15.737,70.26Z" transform="translate(0 -69.997)" fill="#26FFFE"/>
+      </g>
+    </g>
+  </g>
+</svg>

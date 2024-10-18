@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="calendar" width="23.998" height="23.998" viewBox="0 0 23.998 23.998">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.07" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#39d1ff"/>
+      <stop offset="1" stop-color="#3149ff"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_25793" data-name="Path 25793" d="M20,3.714H14.856V2.857a.857.857,0,0,0-1.714,0v.857H8V2.857a.857.857,0,1,0-1.714,0v.857H4.571A2.572,2.572,0,0,0,2,6.285V23.427A2.572,2.572,0,0,0,4.571,26H23.427A2.572,2.572,0,0,0,26,23.427V6.285a2.572,2.572,0,0,0-2.571-2.571H21.713V2.857a.857.857,0,1,0-1.714,0Zm4.285,6.857V23.427a.857.857,0,0,1-.857.857H4.571a.857.857,0,0,1-.857-.857V10.571ZM21.713,5.428v.857a.857.857,0,1,1-1.714,0V5.428H14.856v.857a.857.857,0,0,1-1.714,0V5.428H8v.857a.857.857,0,1,1-1.714,0V5.428H4.571a.857.857,0,0,0-.857.857V8.857h20.57V6.285a.857.857,0,0,0-.857-.857Z" transform="translate(-2 -2)" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+</svg>

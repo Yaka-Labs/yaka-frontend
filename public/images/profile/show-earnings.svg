@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="show-earnings" transform="translate(-779 -122)">
+    <g id="view" transform="translate(779 33.67)">
+      <circle id="Ellipse_3969" data-name="Ellipse 3969" cx="3.079" cy="3.079" r="3.079" transform="translate(6.921 95.253)" fill="#dedbf2"/>
+      <path id="Path_37566" data-name="Path 37566" d="M19.693,97.479c-2.367-2.86-5.949-5.613-9.693-5.613S2.672,94.621.307,97.479a1.339,1.339,0,0,0,0,1.706A20.043,20.043,0,0,0,3.814,102.5c4.193,3.052,8.171,3.059,12.374,0a20.043,20.043,0,0,0,3.506-3.318A1.339,1.339,0,0,0,19.693,97.479ZM10,94.021A4.311,4.311,0,1,1,5.69,98.332,4.315,4.315,0,0,1,10,94.021Z" fill="#dedbf2"/>
+    </g>
+    <rect id="Rectangle_14534" data-name="Rectangle 14534" width="20" height="20" transform="translate(779 122)" fill="none"/>
+  </g>
+</svg>

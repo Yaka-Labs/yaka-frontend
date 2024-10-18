@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g id="grey-checkmark" transform="translate(-931 -1752)">
+    <rect id="Rectangle_16569" data-name="Rectangle 16569" width="16" height="16" transform="translate(931 1752)" fill="none"/>
+    <g id="checkmark" transform="translate(931 1754.35)">
+      <path id="checkmark-2" data-name="checkmark" d="M20.666,7.231a1.13,1.13,0,0,0-1.6,0l-8.577,8.31L6.942,12.107a1.159,1.159,0,0,0-1.6,0,1.073,1.073,0,0,0,0,1.551l4.347,4.21a1.13,1.13,0,0,0,1.6,0l9.378-9.084a1.048,1.048,0,0,0,0-1.551Z" transform="translate(-5.009 -6.898)" fill="#b8b6cb"/>
+    </g>
+  </g>
+</svg>

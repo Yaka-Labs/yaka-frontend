@@ -1,0 +1,151 @@
+.team-section {
+  overflow-x: clip;
+
+  .team-wrapper {
+    margin-top: 70px;
+
+    @media (min-width: 768px) {
+      margin-top: 95px;
+    }
+
+    .heading-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 27px;
+      font-weight: 500;
+      line-height: 34px;
+
+      @media (min-width: 768px) {
+        font-size: 42px;
+        line-height: 48px;
+      }
+    }
+
+    .cards-wrapper-desktop {
+      margin-top: 48px;
+      display: none;
+      gap: 45px 24px;
+
+      @media (min-width: 768px) {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      @media (min-width: 1024px) {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      @media (min-width: 1280px) {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+      }
+
+      .inner-card {
+        height: 100%;
+
+        img {
+          box-shadow: 0 0 50px #48003d;
+        }
+
+        .card-title {
+          margin-top: 22px;
+          font-size: 27px;
+          font-weight: 500;
+          color: #fff;
+        }
+
+        .card-subtitle {
+          margin-top: 3px;
+          font-size: 20px;
+          color: #26fffe;
+        }
+
+        .card-para {
+          margin-top: 12px;
+          color: #b8b6cb;
+          font-size: 17px;
+          line-height: 27px;
+        }
+      }
+    }
+  }
+
+  .inner-card-mobile {
+    .step-img-mobile {
+      box-shadow: 0 0 50px #48003d;
+    }
+
+    .card-title-mobile {
+      margin-top: 16px;
+      font-size: 23px;
+      font-weight: 500;
+      line-height: 28px;
+      color: #fff;
+    }
+
+    .card-subtitle-mobile {
+      margin-top: 3px;
+      font-size: 16px;
+      color: #26fffe;
+    }
+
+    .card-para-mobile {
+      margin-top: 7px;
+      color: #b8b6cb;
+      font-size: 15px;
+      line-height: 24px;
+    }
+  }
+
+  .slider-main {
+    height: 300px !important;
+    padding-top: 60px;
+
+    @media (min-width: 768px) {
+      display: none;
+    }
+
+    .slick-slide {
+      padding: 0 24px;
+      box-sizing: border-box;
+    }
+
+    .slick-dots {
+      display: flex;
+      justify-content: center;
+      top: 12px !important;
+      margin: 0;
+      list-style-type: none;
+      pointer-events: none;
+      text-align: left;
+      margin-left: 20px;
+
+      li {
+        margin-right: 20px !important;
+        width: 24px !important;
+        height: 4px !important;
+        overflow: hidden !important;
+
+        @media screen and (max-width: 480px) {
+          height: 4px !important;
+        }
+      }
+
+      button {
+        display: block;
+        width: 24px !important;
+        height: 4px !important;
+        padding: 0;
+        background-color: #40355d !important;
+        border: none;
+        border-radius: 0%;
+        text-indent: -9999px;
+      }
+
+      li.slick-active button {
+        background-color: #ed00c9 !important;
+      }
+    }
+  }
+}

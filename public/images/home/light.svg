@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="223" height="223" viewBox="0 0 223 223">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff40e3"/>
+      <stop offset="0" stop-color="#ff3be2"/>
+      <stop offset="0.172" stop-color="#fc24dc" stop-opacity="0.706"/>
+      <stop offset="0.542" stop-color="#d708b9" stop-opacity="0.255"/>
+      <stop offset="1" stop-color="#80056e" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="Ellipse_3924" x="0" y="0" width="223" height="223" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="16.5" result="blur"/>
+      <feFlood flood-color="#ec00c9"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_3916" x="33" y="33" width="157" height="157" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="16.5" result="blur-2"/>
+      <feFlood flood-color="#ec00c9"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="radial-gradient-3" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ec00c9"/>
+      <stop offset="1" stop-color="#ec00c9" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g id="light-desktop" transform="translate(-608.5 -5199.5)">
+    <g transform="matrix(1, 0, 0, 1, 608.5, 5199.5)" filter="url(#Ellipse_3924)">
+      <circle id="Ellipse_3924-2" data-name="Ellipse 3924" cx="62" cy="62" r="62" transform="translate(49.5 49.5)" opacity="0.4" fill="url(#radial-gradient)"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 608.5, 5199.5)" filter="url(#Ellipse_3916)">
+      <circle id="Ellipse_3916-2" data-name="Ellipse 3916" cx="29" cy="29" r="29" transform="translate(82.5 82.5)" opacity="0.902" fill="url(#radial-gradient)"/>
+    </g>
+    <circle id="Ellipse_3923" data-name="Ellipse 3923" cx="11" cy="11" r="11" transform="translate(709 5300)" fill="url(#radial-gradient-3)"/>
+  </g>
+</svg>

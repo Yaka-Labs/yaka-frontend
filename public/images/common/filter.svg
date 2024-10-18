@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="filter" transform="translate(-295 -282)">
+    <rect id="Rectangle_10192" data-name="Rectangle 10192" width="40" height="40" rx="3" transform="translate(295 282)" fill="#0000af"/>
+    <g id="filters-icon" transform="translate(303.429 289.619)">
+      <rect id="Rectangle_10204" data-name="Rectangle 10204" width="23" height="23" transform="translate(-0.428 0.381)" fill="none"/>
+      <g id="Group_13100" data-name="Group 13100" transform="translate(0.953 4.762)">
+        <path id="Subtraction_350" data-name="Subtraction 350" d="M13.722,1.471H.736A.676.676,0,0,1,0,.736.676.676,0,0,1,.736,0H13.722a.676.676,0,0,1,.736.736A.676.676,0,0,1,13.722,1.471Z" transform="translate(3.245 6.493)" fill="#fff"/>
+        <path id="Subtraction_351" data-name="Subtraction 351" d="M7.23,1.471H.736A.676.676,0,0,1,0,.736.676.676,0,0,1,.736,0H7.23a.676.676,0,0,1,.736.736A.676.676,0,0,1,7.23,1.471Z" transform="translate(6.493 12.986)" fill="#fff"/>
+        <path id="Subtraction_349" data-name="Subtraction 349" d="M20.217,1.471H.736A.676.676,0,0,1,0,.736.676.676,0,0,1,.736,0H20.217a.675.675,0,0,1,.735.736A.676.676,0,0,1,20.217,1.471Z" transform="translate(0 0)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
